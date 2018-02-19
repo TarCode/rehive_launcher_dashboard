@@ -4,6 +4,10 @@ import {
 	Route,
 	Link
 } from 'react-router-dom'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Nav from './nav'
+
+
 
 const Home = () => (
 	<div>
@@ -11,9 +15,9 @@ const Home = () => (
 	</div>
 )
 
-const About = () => (
+const Wallets = () => (
 	<div>
-		<h2>About</h2>
+		<h2>Wallets</h2>
 	</div>
 )
 
@@ -52,19 +56,15 @@ const Topics = ({ match }) => (
 )
 
 export default () => (
-	<Router>
-		<div>
-			<ul>
-				<li><Link to="/">Home</Link></li>
-				<li><Link to="/about">About</Link></li>
-				<li><Link to="/topics">Topics</Link></li>
-			</ul>
+	<MuiThemeProvider>
+		<Router>
+			<div>
+				<Nav />
 
-			<hr />
-
-			<Route exact path="/" component={Home} />
-			<Route path="/about" component={About} />
-			<Route path="/topics" component={Topics} />
-		</div>
-	</Router>
+				<Route exact path="/" component={Home} />
+				<Route path="/wallets" component={Wallets} />
+				<Route path="/topics" component={Topics} />
+			</div>
+		</Router>
+	</MuiThemeProvider>
 )
