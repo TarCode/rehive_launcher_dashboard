@@ -3,33 +3,33 @@ import Paper from 'material-ui/Paper';
 
 export default () => (
 	<div>
-		<h2>Wallets</h2>
+		<h2>Markets</h2>
 		<div className='row'>
 			<div className='col-6'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h3>ABC</h3>
+						<h3>Market 1</h3>
 					</div>
 				</Paper>
 			</div>
 			<div className='col-6'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h3>ABC</h3>
+						<h3>Market 2</h3>
 					</div>
 				</Paper>
 			</div>
 			<div className='col-6'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h3>ABC</h3>
+						<h3>Market 3</h3>
 					</div>
 				</Paper>
 			</div>
 			<div className='col-6'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h3>ABC</h3>
+						<h3>Market 4</h3>
 					</div>
 				</Paper>
 			</div>
