@@ -10,7 +10,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import Nav from './components/nav'
 import Home from './components/home'
 import Wallet from './components/wallet'
-import Markets from './components/markets'
+import Market from './components/market'
 
 const muiTheme = getMuiTheme({
 	palette: {
@@ -31,7 +31,7 @@ export default () => (
 				}}>
 					<Route exact path="/" component={Home} />
 					<Route path="/wallet" component={Wallet} />
-					<Route path="/markets" component={Markets} />
+					<Route path="/market" component={Market} />
 				</div>
 			</div>
 		</Router>

@@ -23,7 +23,7 @@ export default ({ history }) => (
 				/>
 			</List>
 			<MenuItem onClick={() => history.push('/wallet')}>Wallet</MenuItem>
-			<MenuItem onClick={() => history.push('/markets')}>Markets</MenuItem>
+			<MenuItem onClick={() => history.push('/market')}>Market</MenuItem>
 			<MenuItem onClick={() => history.push('/settings')}>Settings</MenuItem>
 		</Drawer>
 	</div>
