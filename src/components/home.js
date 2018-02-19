@@ -3,33 +3,26 @@ import Paper from 'material-ui/Paper';
 
 export default () => (
 	<div>
-		<h2>Wallets</h2>
+		<h2>Dashboard</h2>
 		<div className='row'>
-			<div className='col-6'>
+			<div className='col-12'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h3>ABC</h3>
+						<h1>Balance</h1>
 					</div>
 				</Paper>
 			</div>
-			<div className='col-6'>
+			<div className='col-12'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h3>ABC</h3>
+						<h1>Refer</h1>
 					</div>
 				</Paper>
 			</div>
-			<div className='col-6'>
+			<div className='col-12'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h3>ABC</h3>
-					</div>
-				</Paper>
-			</div>
-			<div className='col-6'>
-				<Paper style={style} zDepth={3}>
-					<div className='container'>
-						<h3>ABC</h3>
+						<h1>Redeem</h1>
 					</div>
 				</Paper>
 			</div>
@@ -38,7 +31,7 @@ export default () => (
 )
 
 const style = {
-	height: 140,
+	height: 116,
 	width: '100%',
 	margin: 10,
 	textAlign: 'center',
