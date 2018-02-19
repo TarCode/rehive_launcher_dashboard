@@ -8,21 +8,21 @@ export default () => (
 			<div className='col-12'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h1>Balance</h1>
+						<h3>Balance</h3>
 					</div>
 				</Paper>
 			</div>
 			<div className='col-12'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h1>Refer</h1>
+						<h3>Refer</h3>
 					</div>
 				</Paper>
 			</div>
 			<div className='col-12'>
 				<Paper style={style} zDepth={3}>
 					<div className='container'>
-						<h1>Redeem</h1>
+						<h3>Redeem</h3>
 					</div>
 				</Paper>
 			</div>
@@ -31,7 +31,7 @@ export default () => (
 )
 
 const style = {
-	height: 116,
+	height: 80,
 	width: '100%',
 	margin: 10,
 	textAlign: 'center',
